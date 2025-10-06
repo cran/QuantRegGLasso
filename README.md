@@ -1,17 +1,28 @@
 ## QuantRegGLasso: Adaptively Weighted Group Lasso for Semiparametric Quantile Regression Models
 
-[![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 [![R build status](https://github.com/egpivo/QuantRegGLasso/workflows/R-CMD-check/badge.svg)](https://github.com/egpivo/QuantRegGLasso/actions)
 [![Code Coverage](https://img.shields.io/codecov/c/github/egpivo/QuantRegGLasso/master.svg)](https://app.codecov.io/github/egpivo/QuantRegGLasso?branch=master)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/QuantRegGLasso?color=green)](https://cran.r-project.org/package=QuantRegGLasso)
+[![Downloads (monthly)](https://cranlogs.r-pkg.org/badges/QuantRegGLasso?color=brightgreen)](https://www.r-pkg.org/pkg/QuantRegGLasso)
+[![Downloads (total)](https://cranlogs.r-pkg.org/badges/grand-total/QuantRegGLasso?color=brightgreen)](https://www.r-pkg.org/pkg/QuantRegGLasso)
+[![BEJ](https://img.shields.io/badge/Bernoulli-10.3150%2FBEJ1091-brightgreen)](https://doi.org/10.3150/18-BEJ1091)
+
 
 **QuantRegGLasso** is an R package designed for adaptively weighted group Lasso procedures in quantile regression. It excels in simultaneous variable selection and structure identification for varying coefficient quantile regression models and additive quantile regression models with ultra-high dimensional covariates.
 
 
-## Installation
-- Install the current development version from GitHub:
-  ```r
-  remotes::install_github("egpivo/QuantRegGLasso")
-  ```
+### Installation
+You can install **QuantRegGLasso** using either of the following methods:
+
+#### Install from CRAN
+```r
+install.packages("QuantRegGLasso")
+```
+
+#### Install the Development Version from GitHub
+```r
+remotes::install_github("egpivo/QuantRegGLasso")
+```
 
 **Please Note:**
 
@@ -23,7 +34,7 @@
   brew install gcc
   ```
 
-  For a detailed solution, refer to this [link](https://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/), or download and install the library [`gfortran`](https://github.com/fxcoudert/gfortran-for-macOS/releases) to resolve the "`ld: library not found for -lgfortran`" error.
+For a detailed solution, refer to this [link](https://blog.thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/index.html), or download and install the library [`gfortran`](https://github.com/fxcoudert/gfortran-for-macOS/releases) to resolve the "`ld: library not found for -lgfortran`" error.
 
 
 ### Authors
@@ -43,3 +54,25 @@ This paper introduces the adaptively weighted group Lasso procedure and its appl
 
 ## License
 GPL (>= 2)
+
+
+## Citation
+- To cite package ‘QuantRegGLasso’ in publications use:
+```
+  Wang W, Wu W, Honda T, Ing C (2025). _QuantRegGLasso: Adaptively
+  Weighted Group Lasso for Semiparametric Quantile Regression Models_.
+  R package version 1.0.1,
+  <https://CRAN.R-project.org/package=QuantRegGLasso>.
+```
+
+- A BibTeX entry for LaTeX users is
+```
+  @Manual{,
+    title = {QuantRegGLasso: Adaptively Weighted Group Lasso for Semiparametric Quantile
+Regression Models},
+    author = {Wen-Ting Wang and Wei-Ying Wu and Toshio Honda and Ching-Kang Ing},
+    year = {2025},
+    note = {R package version 1.0.1},
+    url = {https://CRAN.R-project.org/package=QuantRegGLasso},
+  }
+```

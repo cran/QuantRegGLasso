@@ -1,7 +1,7 @@
 Package: QuantRegGLasso
 Title: Adaptively Weighted Group Lasso for Semiparametric Quantile
         Regression Models
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(person(
                 given = "Wen-Ting",
                 family = "Wang",
@@ -45,14 +45,15 @@ Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
 SystemRequirements: GNU make
 Encoding: UTF-8
 RoxygenNote: 7.2.3
-URL: https://github.com/egpivo/SpatPCA
+URL: https://github.com/egpivo/QuantRegGLasso
 Config/testthat/edition: 3
 NeedsCompilation: yes
-Packaged: 2024-01-15 21:57:00 UTC; joseph
-Author: Wen-Ting Wang [aut, cre] (<https://orcid.org/0000-0003-3051-7302>),
+Packaged: 2025-10-06 03:02:39 UTC; joseph
+Author: Wen-Ting Wang [aut, cre] (ORCID:
+    <https://orcid.org/0000-0003-3051-7302>),
   Wei-Ying Wu [aut],
   Toshio Honda [aut],
-  Ching-Kang Ing [aut] (<https://orcid.org/0000-0003-1362-8246>)
+  Ching-Kang Ing [aut] (ORCID: <https://orcid.org/0000-0003-1362-8246>)
 Maintainer: Wen-Ting Wang <egpivo@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-01-16 17:20:02 UTC
+Date/Publication: 2025-10-06 03:30:02 UTC
